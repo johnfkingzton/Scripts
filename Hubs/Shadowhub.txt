@@ -1,0 +1,301 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local buttonholder = Instance.new("Frame")
+local Shadow = Instance.new("TextLabel")
+local pf = Instance.new("TextButton")
+local games = Instance.new("TextButton")
+local scripts = Instance.new("TextButton")
+local discord = Instance.new("TextButton")
+local info = Instance.new("TextButton")
+local gay = Instance.new("TextButton")
+local jailbreak = Instance.new("TextButton")
+local sl2 = Instance.new("TextButton")
+local afs = Instance.new("TextButton")
+local expander = Instance.new("TextButton")
+local cb = Instance.new("TextButton")
+local ep = Instance.new("TextButton")
+local iy = Instance.new("TextButton")
+local esp = Instance.new("TextButton")
+local other = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local open = Instance.new("TextButton")
+ScreenGui.Name = "hot"
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0.168627, 0, 0)
+Frame.Position = UDim2.new(0.418811888, 0, 0.192109779, 0)
+Frame.Size = UDim2.new(0, 541, 0, 316)
+Frame.Style = Enum.FrameStyle.RobloxRound
+Frame.Visible = false
+
+buttonholder.Name = "buttonholder"
+buttonholder.Parent = Frame
+buttonholder.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+buttonholder.BorderSizePixel = 0
+buttonholder.Position = UDim2.new(-0.221450031, 0, -0.0253164563, 0)
+buttonholder.Size = UDim2.new(0, 99, 0, 316)
+buttonholder.Style = Enum.FrameStyle.RobloxRound
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Frame
+Shadow.BackgroundColor3 = Color3.new(1, 1, 1)
+Shadow.BackgroundTransparency = 1
+Shadow.Position = UDim2.new(0.264325321, 0, -0.0284810141, 0)
+Shadow.Size = UDim2.new(0, 241, 0, 43)
+Shadow.Font = Enum.Font.SourceSans
+Shadow.Text = "ShadowHub"
+Shadow.TextColor3 = Color3.new(1, 1, 1)
+Shadow.TextSize = 50
+Shadow.TextTransparency = 0.20000000298023
+Shadow.TextWrapped = true
+
+pf.Name = "pf"
+pf.Parent = Frame
+pf.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+pf.BackgroundTransparency = 0.30000001192093
+pf.BorderSizePixel = 0
+pf.Position = UDim2.new(0.368360013, 0, 0.234177217, 0)
+pf.Size = UDim2.new(0, 135, 0, 45)
+pf.Font = Enum.Font.SourceSans
+pf.Text = "Phantom Forces"
+pf.TextColor3 = Color3.new(1, 1, 1)
+pf.TextSize = 22
+pf.TextTransparency = 0.30000001192093
+pf.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mikehales7/EHUB/master/Roblox", true))()
+end)
+games.Name = "games"
+games.Parent = Frame
+games.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+games.BackgroundTransparency = 0.30000001192093
+games.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+games.Position = UDim2.new(-0.202804476, 0, 0.268987358, 0)
+games.Size = UDim2.new(0, 78, 0, 25)
+games.Font = Enum.Font.SourceSans
+games.Text = "Games"
+games.TextColor3 = Color3.new(1, 1, 1)
+games.TextSize = 30
+games.TextTransparency = 0.30000001192093
+
+scripts.Name = "scripts"
+scripts.Parent = Frame
+scripts.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+scripts.BackgroundTransparency = 0.30000001192093
+scripts.Position = UDim2.new(-0.202804476, 0, 0.386075974, 0)
+scripts.Size = UDim2.new(0, 78, 0, 25)
+scripts.Font = Enum.Font.SourceSans
+scripts.Text = "[FE] Scripts"
+scripts.TextColor3 = Color3.new(1, 1, 1)
+scripts.TextSize = 20
+scripts.TextTransparency = 0.30000001192093
+
+discord.Name = "discord"
+discord.Parent = Frame
+discord.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+discord.BackgroundTransparency = 0.30000001192093
+discord.Position = UDim2.new(-0.200956047, 0, 0.503164589, 0)
+discord.Size = UDim2.new(0, 78, 0, 25)
+discord.Font = Enum.Font.SourceSans
+discord.Text = "Discord"
+discord.TextColor3 = Color3.new(1, 1, 1)
+discord.TextSize = 30
+discord.TextTransparency = 0.30000001192093
+
+info.Name = "info"
+info.Parent = Frame
+info.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+info.BackgroundTransparency = 0.30000001192093
+info.Position = UDim2.new(-0.202804476, 0, 0.626582265, 0)
+info.Size = UDim2.new(0, 78, 0, 25)
+info.Font = Enum.Font.SourceSans
+info.Text = "Info"
+info.TextColor3 = Color3.new(1, 1, 1)
+info.TextSize = 30
+info.TextTransparency = 0.30000001192093
+
+gay.Name = "gay"
+gay.Parent = Frame
+gay.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+gay.BackgroundTransparency = 0.30000001192093
+gay.Position = UDim2.new(-0.200956047, 0, 0.737341821, 0)
+gay.Size = UDim2.new(0, 78, 0, 25)
+gay.Font = Enum.Font.SourceSans
+gay.Text = "Gay Mode"
+gay.TextColor3 = Color3.new(1, 1, 1)
+gay.TextSize = 22
+gay.TextTransparency = 0.30000001192093
+
+jailbreak.Name = "jailbreak"
+jailbreak.Parent = Frame
+jailbreak.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+jailbreak.BackgroundTransparency = 0.30000001192093
+jailbreak.Position = UDim2.new(0.0453608148, 0, 0.236744702, 0)
+jailbreak.Size = UDim2.new(0, 135, 0, 45)
+jailbreak.Font = Enum.Font.SourceSans
+jailbreak.Text = "JailBreak"
+jailbreak.TextColor3 = Color3.new(0.945098, 0.945098, 0.945098)
+jailbreak.TextScaled = true
+jailbreak.TextSize = 40
+jailbreak.TextTransparency = 0.30000001192093
+jailbreak.TextWrapped = true
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("http://astroid.ml/freescripts/jailbreakgui.lua", true))()
+end)
+sl2.Name = "sl2"
+sl2.Parent = Frame
+sl2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+sl2.BackgroundTransparency = 0.30000001192093
+sl2.Position = UDim2.new(0.696249366, 0, 0.236744702, 0)
+sl2.Size = UDim2.new(0, 135, 0, 45)
+sl2.Font = Enum.Font.SourceSans
+sl2.Text = "SL2"
+sl2.TextColor3 = Color3.new(1, 1, 1)
+sl2.TextScaled = true
+sl2.TextSize = 40
+sl2.TextTransparency = 0.30000001192093
+sl2.TextWrapped = true
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://keshhub.com/scripts/main.lua", true))()
+end)
+afs.Name = "afs"
+afs.Parent = Frame
+afs.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+afs.BackgroundTransparency = 0.30000001192093
+afs.Position = UDim2.new(0.0457140431, 0, 0.498301029, 0)
+afs.Size = UDim2.new(0, 135, 0, 45)
+afs.Font = Enum.Font.SourceSans
+afs.Text = "Anime Fighting Sim"
+afs.TextColor3 = Color3.new(1, 1, 1)
+afs.TextSize = 18
+afs.TextTransparency = 0.30000001192093
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("", true))()
+end)
+expander.Name = "expander"
+expander.Parent = Frame
+expander.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+expander.BackgroundTransparency = 0.30000001192093
+expander.Position = UDim2.new(0.366987407, 0, 0.501465559, 0)
+expander.Size = UDim2.new(0, 135, 0, 45)
+expander.Font = Enum.Font.SourceSans
+expander.Text = "Expander"
+expander.TextColor3 = Color3.new(1, 1, 1)
+expander.TextScaled = true
+expander.TextSize = 40
+expander.TextTransparency = 0.30000001192093
+expander.TextWrapped = true
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
+end)
+
+cb.Name = "cb"
+cb.Parent = Frame
+cb.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+cb.BackgroundTransparency = 0.30000001192093
+cb.Position = UDim2.new(0.696249366, 0, 0.498301029, 0)
+cb.Size = UDim2.new(0, 135, 0, 45)
+cb.Font = Enum.Font.SourceSans
+cb.Text = "Counter Blox"
+cb.TextColor3 = Color3.new(1, 1, 1)
+cb.TextSize = 30
+cb.TextTransparency = 0.30000001192093
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZgXeFn6t", true))()
+end)
+
+ep.Name = "ep"
+ep.Parent = Frame
+ep.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+ep.BackgroundTransparency = 0.30000001192093
+ep.BorderSizePixel = 0
+ep.Position = UDim2.new(0.0457140468, 0, 0.736522257, 0)
+ep.Size = UDim2.new(0, 135, 0, 45)
+ep.Font = Enum.Font.SourceSans
+ep.Text = "Entry Point"
+ep.TextColor3 = Color3.new(1, 1, 1)
+ep.TextSize = 35
+ep.TextTransparency = 0.30000001192093
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/dffnbLKZ", true))()
+end)
+iy.Name = "iy"
+iy.Parent = Frame
+iy.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+iy.BackgroundTransparency = 0.30000001192093
+iy.BorderSizePixel = 0
+iy.Position = UDim2.new(0.366987407, 0, 0.739686728, 0)
+iy.Size = UDim2.new(0, 135, 0, 45)
+iy.Font = Enum.Font.SourceSans
+iy.Text = "IY"
+iy.TextColor3 = Color3.new(1, 1, 1)
+iy.TextSize = 40
+iy.TextTransparency = 0.30000001192093
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+end)
+esp.Name = "esp"
+esp.Parent = Frame
+esp.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+esp.BackgroundTransparency = 0.30000001192093
+esp.BorderSizePixel = 0
+esp.Position = UDim2.new(0.696249366, 0, 0.742851257, 0)
+esp.Size = UDim2.new(0, 135, 0, 45)
+esp.Font = Enum.Font.SourceSans
+esp.Text = "Esp"
+esp.TextColor3 = Color3.new(1, 1, 1)
+esp.TextSize = 40
+esp.TextTransparency = 0.30000001192093
+expander.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/A84cMe8w", true))()
+end)
+other.Name = "other"
+other.Parent = Frame
+other.BackgroundColor3 = Color3.new(1, 1, 1)
+other.BackgroundTransparency = 1
+other.Position = UDim2.new(-0.198654994, 0, 0.0270389598, 0)
+other.Size = UDim2.new(0, 77, 0, 34)
+other.Font = Enum.Font.SourceSans
+other.Text = "Other Stuff"
+other.TextColor3 = Color3.new(1, 1, 1)
+other.TextScaled = true
+other.TextSize = 14
+other.TextWrapped = true
+
+close.Name = "close"
+close.Parent = ScreenGui
+close.BackgroundColor3 = Color3.new(1, 1, 1)
+close.Position = UDim2.new(0, 0, 0.540308774, 0)
+close.Size = UDim2.new(0, 119, 0, 33)
+close.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+close.Font = Enum.Font.SourceSans
+close.Text = "Close"
+close.TextColor3 = Color3.new(0, 0, 0)
+close.TextSize = 25
+close.Visible = false
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.new(0.192157, 0.192157, 0.192157)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0, 0, 0.471698105, 0)
+open.Size = UDim2.new(0, 119, 0, 33)
+open.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+open.Font = Enum.Font.SourceSans
+open.Text = "Open"
+open.TextColor3 = Color3.new(0, 0, 0)
+open.TextSize = 25
+
+open.MouseButton1Down:connect(function()
+	Frame.Visible = true
+	close.Visible = true
+	open.Visible = false
+end)
+
+close.MouseButton1Down:connect(function()
+	Frame.Visible = false
+	close.Visible = false
+	open.Visible = true
+end)
