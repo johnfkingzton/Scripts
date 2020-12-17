@@ -1,1 +1,1 @@
-local AllowedPlayers = {'protondum','2m8cvn5j2sn','Name'}
+{'protondum','2m8cvn5j2sn','Name'}
